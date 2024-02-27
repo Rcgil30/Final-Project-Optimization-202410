@@ -6,29 +6,29 @@
 
 Bio: 
 
-![Picture of Justine](TeamPictures/Justine.png)
+![Picture of Justine](assets/TeamPictures/Justine.png)
 
 ### Luis Espinel
 
 Bio:
 
-![Picture of Luis](TeamPictures/Luis.png)
+![Picture of Luis](assets/TeamPictures/Luis.png)
 
 ### Roberto Gil
 
 Bio:
 
-![Picture of Roberto](TeamPictures/Roberto.png)
+![Picture of Roberto](assets/TeamPictures/Roberto.png)
 
 ### David Maury
 
 Bio:
 
-![Picture of David](TeamPictures/David.png)
+![Picture of David](assets/TeamPictures/David.png)
 
 ### Mateo Suarez
 
-![Picture of Mateo](TeamPictures/Mateo.png)
+![Picture of Mateo](assets/TeamPictures/Mateo.png)
 
 
 ## Dataset selection
@@ -39,7 +39,7 @@ The reason we selected this dataset is because (reasons)
 
 ## Visualization and statistical insights
 
-Based on our dataset, we got thw following graphics:
+Based on our dataset, we got the following graphics:
 
 
 With this, we concluded that...
