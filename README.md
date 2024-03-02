@@ -1,3 +1,5 @@
+# Final Project - Optimization 202410
+
 ## Team Members
 
 ### Justine Barreto
@@ -47,18 +49,23 @@ The reason we selected this dataset is because it has a great variety of variabl
 Using Google Colab, we built the file that can be found in our repository as [Optimization_202410_FP](assets\DatasetVisualization\Optimization_202410_FP.ipynb), with this we gathered some information from the dataset to get better statistical insights:
 
 ![Dataframe info](assets\DatasetVisualization\DatasetInfo.png)
+
 Firstly, we took a look into the information that pandas provides us about the dataset, in this we can see that all 14 rows have all non-null values, which is great, because we don't have any gaps in the information and don't have to make any decisions about what we should do about missing values. Also, we can see that all variables are numerical, either integers or floats, so our models won't depend on any categorical values, so we won't need to drop any of this information or build a different model depending on the categorie (because sometimes they are incompatible).
 
 ![Histogram](assets\DatasetVisualization\Histogram.png)
+
 Histogram: With this plot, we aimed to take a look at the distribution of frecuency of the house prices, which is our variable of interest, and the one we will try to predict in the future. For this we decided to change the amount of bins (which is 10 by default) to the amount proposed by the Sturges law, this is automatically done by pyplot, and we can see that there is a tendency for a shift to the left in the prices of the houses, and also an unusual amount in the last bin, with this we can rule out that the houses have a well defined probability distribution.
 
 ![Correlation Heat Map](assets\DatasetVisualization\CorrelationHeatMap.png)
+
 Correlation Heat Map: Using pandas, we calculated the correlation between all of the variables, our interest is centered in the ones that are placed in the first row, because they are related to our variable of interest. In this we see that the most influential parameter is the median income of households around the area, which makes sense because we would normally expect an expensive house to be located in an expensive neighborhood, so the correlation is clear. The second biggest correlation is with the distance to the coast, which is surprising because it has a big negative correlation, so the further away a house is from the coast, its going to be more expensive, and we thought that it wouldn't have a lot of impact. The rest of the variables
 
 ![Displot](assets\DatasetVisualization\Displot.png)
+
 Displot: The displot shows both the histogram plot and a kde plot, the kde shows a prediction of the probability distribution based on the behavior of the data, again confirming that it doesn't follow conventional probability distributions.
 
 ![Scatter and Kde plot](assets\DatasetVisualization\ScatterKdePlot.png)
+
 Scatter and Kde Plot: We created a pair grid of Scatter and Kde plots, the first one helps us visualize the pattern of frecuency of the different variables in our set, in which we can clearly observe how correlated these are in the variability of the plots, the Kde on the other hand shows how the gradient of that two variable function of frecuency behaves, showing that for some variables we have a lot of critical points of concentration, which could probably be used for neural networks algorithms.
 
 ## Hypothesis 
