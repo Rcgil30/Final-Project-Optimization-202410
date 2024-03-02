@@ -64,7 +64,7 @@ Correlation Heat Map: Using pandas, we calculated the correlation between all of
 
 Displot: The displot shows both the histogram plot and a kde plot, the kde shows a prediction of the probability distribution based on the behavior of the data, again confirming that it doesn't follow conventional probability distributions.
 
-![Scatter and Kde plot](assets/DatasetVisualization/ScatterKdePlot.png)
+![Scatter and Kde plot](assets/DatasetVisualization/ScatterKdePlots.png)
 
 Scatter and Kde Plot: We created a pair grid of Scatter and Kde plots, the first one helps us visualize the pattern of frecuency of the different variables in our set, in which we can clearly observe how correlated these are in the variability of the plots, the Kde on the other hand shows how the gradient of that two variable function of frecuency behaves, showing that for some variables we have a lot of critical points of concentration, which could probably be used for neural networks algorithms.
 
