@@ -52,3 +52,5 @@ With this, we concluded that...
 
 ## Hypothesis 
 
+hypothesis 1: The Mediun House Value is influenced by the Distance of Coast
+Hypothesis 2: There is no relationship between the Mediun House Value and its Median Age
