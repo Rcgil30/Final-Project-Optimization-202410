@@ -1,6 +1,11 @@
 ---
 title: Final Project - Optimization 202410
+description: Project of application of machine learning models for a large dataset in python
 ---
+## Link to Machine Learning Models page
+
+[Model #1](https://rcgil30.github.io/Final-Project-Optimization-202410/model1) [Model #2](https://rcgil30.github.io/Final-Project-Optimization-202410/model2)
+
 ## Team Members
 
 ### Justine Barreto
