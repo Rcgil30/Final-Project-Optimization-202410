@@ -1,4 +1,5 @@
-theme: jekyll-theme-midnight
+theme: jekyll-theme-cayman
+show_downloads: true
 navigation:
   - title: Home
     url: /
