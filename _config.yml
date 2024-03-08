@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+remote_theme: abhinavs/moonwalk
 title: Final Project - Optimization 202410
 description: Project of application of machine learning models for a large dataset in python
 show_downloads: true
