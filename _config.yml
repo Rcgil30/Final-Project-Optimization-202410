@@ -1,4 +1,4 @@
-remote_theme: abhinavs/moonwalk
+theme: jekyll-theme-midnight
 navigation:
   - title: Home
     url: /
