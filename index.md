@@ -4,7 +4,7 @@ description: Project of application of machine learning models for a large datas
 ---
 ## Link to Machine Learning Models page
 
-[Model #1](https://rcgil30.github.io/Final-Project-Optimization-202410/model1) [Model #2](https://rcgil30.github.io/Final-Project-Optimization-202410/model2)
+### [Model #1](https://rcgil30.github.io/Final-Project-Optimization-202410/model1) [Model #2](https://rcgil30.github.io/Final-Project-Optimization-202410/model2)
 
 ## Team Members
 
