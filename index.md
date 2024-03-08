@@ -1,3 +1,11 @@
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about/">About</a></li>
+    </ul>
+</nav>
+
+
 # Final Project - Optimization 202410
 
 ## Team Members
