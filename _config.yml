@@ -2,7 +2,11 @@ theme: jekyll-theme-cayman
 title: Final Project - Optimization 202410
 description: Project of application of machine learning models for a large dataset in python
 show_downloads: true
-header_pages:
-  - index.md
-  - model1.md
-  - model2.md
+navigation:
+  - title: Home
+    url: /
+  - title: ML Model "#"1
+    url: /model1/
+  - title: ML Model "#"2
+    url: /model2/
+
