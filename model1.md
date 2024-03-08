@@ -1,1 +1,8 @@
-# Linear Regression
+---
+layout: page
+title: Machine Learning Model "#"1
+---
+
+## Linear Regression
+
+Lorem Ipsum Dolor
