@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Model `#`2
+title: Machine Learning Model N.2
 ---
 
 ## Neural Networks
