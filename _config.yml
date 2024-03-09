@@ -7,4 +7,9 @@ navigation:
     url: /model1/
   - title: ML Model "#"2
     url: /model2/
-
+  - title: Team Members
+    url: /teammembers/
+  - title: Dataset Selection and Insights
+    url: /datasetinfo/
+  - title: Code for Visualization
+    url: visualizationcode
