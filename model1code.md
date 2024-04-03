@@ -47,4 +47,7 @@ sns.regplot(x=ypred, y=yactu)
 ```
 
 Output:
+
 ![Regplot image](assets/Model1/Regplot.png)
+
+## [Go back to Model 1 Page](./)
