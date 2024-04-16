@@ -104,9 +104,12 @@ Output:
 ```python
 regression.coef_ = np.array(averageParameters[:-1])
 regression.intercept_ = averageParameters[-1]
-ypred = regression.predict(dfTest[inputs]).flatten()
-yactu = dfTest[output].values
+ypred = regression.predict(df[inputs]).flatten()
+yactu = df[output].values
+regression.score(df[inputs], df[output])
 ```
+
+Output: 0.6465617542482369
 
 ```python
 sns.regplot(x=ypred, y=yactu)

@@ -22,6 +22,12 @@ We also calculated the average value of each of the parameters, using this avera
 
 ![Score Distribution with average Parameters](assets/Model1/Average%20Score%20Distribution.png)
 
+Also, we created a Regression plot with the predicted values compared to the actual values using the entire dataset, this because the average parameters should be influenced equally by the entire dataset, out of this we got the following plot:
+
+![Regplot image](assets/Model1/Regplot.png)
+
+We can see there are some huge outliers in the plot, but most points are clustered around the line of regression, also, the score we got comparing the regression to the entire dataset was 0.6465617542482369.
+
 Finally, we calculated the new average score and compared it to the average scores calculated in each iteration of the regression, improving the average by 0.0017014752125713573, and we can clearly see in the plot that the dispersion compared to the previos one was improved.
 
 Even though using the average values gave us a better performance, we still think that a linear regression is not a good choice of machine learning model for our dataset, this is because we didn't get an score greater than 0.7, so it doesn't really capture the behavior of the data adecuately, but it can be useful to get a quick estimation of the output and takes very little time to train compared to bigger models, so we think it did a decent job.
