@@ -6,34 +6,24 @@ title: Machine Learning Model N.1
 
 For our first model, we used linear regression to predict the pricing of the houses. For this, we used the scikit learn library from python, the code used for this part can be found [here](./model1code).
 
-We predicted the Median_House_Value column using the other 13 columns of the dataset, which all had numerical values, applying the linear regression, we got the following parameters:
+Our prediction variable is the Median House Value, using the other columns in the dataset as inputs for the model.
 
-- Median_Income: 3.93020390e+04
-- Median_Age: 9.21787349e+02
-- Tot_Rooms: -6.37930844e+00
-- Tot_Bedrooms: 1.13579185e+02
-- Population: -3.49795266e+01
-- Households: 2.80108601e+01
-- Latitude:-4.44119437e+04
-- Longitude: -2.89682814e+04
-- Distance_To_Coast: -2.26101437e-01
-- Distance_To_LA: -1.35384997e-01
-- Distance_To_SanDiego: 2.22176457e-01
-- Distance_To_SanJose: 1.53847973e-01
-- Distance_To_SanFrancisco: -1.28849908e-01
+The procedure we used was to make 1000 simulations of the regression, gathering the coefficients, the intercept and the score of each iteration so that we could make some inferences about the best parameters that we could use, for this we plotted the distribution of the parameters:
 
-And the intercep of the model is
+![Parameters Distribution](assets/Model1/Parameter%20Distribution.png)
 
-- Intercept: -1907956.16322239
+With these plot, we can see that most of the parameters follow roughly a normal distribution, except for the parameters associated with the population and the households, which seem to have a bias in the distribution, which could explain some of the inaccuracy of the model. We also plotted the distribution of the scores throughout the iterations:
 
-Out of this values, we got the following score:
+![Score Distribution](assets/Model1/Score%20Distribution.png)
 
-- Regression Score: 0.6473127028039991
+Looking at this plot, we can see that the model's score doesn't have a lot of dispersion, being within a range of [0.6 - 0.68] having a big spike around 0.645.
 
-Which shows that the regression model is far from accurate to the real distribution of data, we can clearly see this with the regression plot given by comparing the predicted values with the actual values.
+We also calculated the average value of each of the parameters, using this average value as a good representation of the real parameters, using these values, we constructed a new regresssion and calculated it's score distribution with different cross-validation splits, with this, we got the following plot:
 
-![Regplot image](assets/Model1/Regplot.png)
+![Score Distribution with average Parameters](assets/Model1/Average%20Score%20Distribution.png)
 
-In this plot, we can see a great amount of dispersion in the points, although we think that the behavior of the regression is sufficiently good to make predictions and get a decent result, but there should be a better model to apply to the dataset that gives a more accurate representation of the data, so in the next model we're going to try to get a better result with another technique.
+Finally, we calculated the new average score and compared it to the average scores calculated in each iteration of the regression, improving the average by 0.0017014752125713573, and we can clearly see in the plot that the dispersion compared to the previos one was improved.
+
+Even though using the average values gave us a better performance, we still think that a linear regression is not a good choice of machine learning model for our dataset, this is because we didn't get an score greater than 0.7, so it doesn't really capture the behavior of the data adecuately, but it can be useful to get a quick estimation of the output and takes very little time to train compared to bigger models, so we think it did a decent job.
 
 ## [Go back to Main Page](./)
